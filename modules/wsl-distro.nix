@@ -17,7 +17,7 @@ in
     };
     defaultUser = mkOption {
       type = str;
-      default = "nixos";
+      default = "ofseed";
       description = "The name of the default user";
     };
     populateBin = mkOption {
